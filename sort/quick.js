@@ -6,6 +6,7 @@ const quickSort = (arr)=>{
     let left = [];
     let right = [];
     let current;
+    // *** 'i < pivotIndex' => chúng ta sẽ không loop qua 'pivot' nữa
     for (let i = 0 ; i<pivotIndex ;i++){
         current = arr[i];
         if(current < pivot){
